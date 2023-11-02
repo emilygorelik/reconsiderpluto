@@ -18,13 +18,20 @@ module.exports = {
       18: 18,
       20: 20,
       24: 24,
+      28: 28,
+      32: 32,
+      48: 48,
+      56: 56,
     },
-    fontFamily: {},
+    fontFamily: {
+      jua: ['Jua', 'sans-serif'],
+    },
     extend: {
       colors: {
         'dark-blue': '#151D32',
         'dark-grey': '#1C2029',
         'light-grey': '#D9D9D9',
+        'carmine-pink': '#CA9A72',
       },
       transitionProperty: {
         height: 'height',
@@ -40,5 +47,5 @@ module.exports = {
     },
   },
   safelist: [],
-  plugins: [require('flowbite/plugin')],
+  plugins: [require('flowbite/plugin'), require('tailwindcss-animated')],
 };
