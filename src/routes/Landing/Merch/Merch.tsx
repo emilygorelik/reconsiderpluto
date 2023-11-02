@@ -22,8 +22,8 @@ const SquiglySvg = ({ className }: SquiglySvgProps) => {
 
 export const Merch = () => {
   return (
-    <div className="flex min-h-screen">
-      <div className="bg-light-grey relative my-auto w-1/2">
+    <div className="relative flex min-h-screen">
+      <div className="bg-light-grey relative my-auto w-3/5">
         <div className="p-12">
           <p className="font-jua text-56 text-dark-grey uppercase">
             Are you? Cause we're not
@@ -54,8 +54,21 @@ export const Merch = () => {
             />
           </div>
         </div>
-
         <SquiglySvg className="absolute left-full top-0 h-full" />
+      </div>
+      <div className="relative my-auto flex h-[80vh] w-2/5 justify-end p-12">
+        <div className="relative h-min w-2/3 rounded-lg bg-white py-24">
+          <img src="/assets/img/hat.png" alt="merch" className="" />
+          <button
+            className="bg-carmine-pink font-jua text-dark-grey absolute -bottom-4 -right-4 w-2/3 rounded px-12 py-4 text-24 shadow transition-all hover:scale-105 hover:shadow-xl"
+            onClick={() => toast.warn('*italian accent* ita no worka yet')}
+          >
+            Merch
+          </button>
+        </div>
+        <p className="font-jua text-32 absolute bottom-0 right-0 w-2/3 p-4 text-right text-white">
+          BUT WE WON'T STAY QUIET. PLUTO DESERVES A CHANCE
+        </p>
       </div>
     </div>
   );
