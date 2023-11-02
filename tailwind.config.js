@@ -22,24 +22,9 @@ module.exports = {
     fontFamily: {},
     extend: {
       colors: {
-        blue: {
-          50: '#',
-          100: '#',
-          200: '#4363ac',
-          300: '#3987c7',
-          400: '#284997',
-        },
-        grey: {
-          50: '#f0f1f0',
-          100: '#e3e2e1',
-          200: '#c8c8c8',
-          300: '#a7c0b5',
-          400: '',
-          500: '#4c545b',
-          600: '#545D65',
-          700: '#24282D',
-          800: '#1E2023',
-        },
+        'dark-blue': '#151D32',
+        'dark-grey': '#1C2029',
+        'light-grey': '#D9D9D9',
       },
       transitionProperty: {
         height: 'height',
@@ -54,6 +39,6 @@ module.exports = {
       spacing: {},
     },
   },
-  safelist: ['grey', 'blue'],
+  safelist: [],
   plugins: [require('flowbite/plugin')],
 };

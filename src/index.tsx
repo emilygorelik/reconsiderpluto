@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         position="bottom-right"
         newestOnTop
         autoClose={3000}
-        toastClassName="text-onBackground rounded-lg"
+        toastClassName="rounded-lg"
         closeButton={true}
       />
     </QueryClientProvider>

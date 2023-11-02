@@ -1,7 +1,7 @@
 export const ErrorPage = () => {
   return (
     <div>
-      <p>error page</p>
+      <p>The galaxy requested DNE :(</p>
     </div>
   );
 };
