@@ -21,6 +21,7 @@ module.exports = {
       28: 28,
       32: 32,
       48: 48,
+      52: 52,
       56: 56,
     },
     fontFamily: {

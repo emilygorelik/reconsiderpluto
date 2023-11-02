@@ -25,8 +25,11 @@ export const Merch = () => {
     <div className="relative flex min-h-screen">
       <div className="bg-light-grey relative my-auto w-3/5">
         <div className="p-12">
-          <p className="font-jua text-56 text-dark-grey uppercase">
-            Are you? Cause we're not
+          <p className="font-jua text-52 text-dark-grey whitespace-nowrap uppercase">
+            Are you comfortable with 8 planets?
+          </p>
+          <p className="font-jua text-52 text-dark-grey uppercase">
+            Are you?! Cause we're not
           </p>
           <br />
           <br />
@@ -66,7 +69,7 @@ export const Merch = () => {
             Merch
           </button>
         </div>
-        <p className="font-jua text-32 absolute bottom-0 right-0 w-2/3 p-4 text-right text-white">
+        <p className="font-jua text-32 absolute bottom-0 right-0 w-2/3 p-8 text-right text-white">
           BUT WE WON'T STAY QUIET. PLUTO DESERVES A CHANCE
         </p>
       </div>
