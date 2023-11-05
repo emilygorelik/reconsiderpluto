@@ -23,6 +23,14 @@ module.exports = {
       48: 48,
       52: 52,
       56: 56,
+      sm: '0.8rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
     },
     fontFamily: {
       jua: ['Jua', 'sans-serif'],
@@ -33,6 +41,7 @@ module.exports = {
         'dark-grey': '#1C2029',
         'light-grey': '#D9D9D9',
         'carmine-pink': '#CA9A72',
+        'light-blue': '#0CC0DF',
       },
       transitionProperty: {
         height: 'height',
