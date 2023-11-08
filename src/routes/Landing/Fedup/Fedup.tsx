@@ -51,6 +51,15 @@ export const Fedup = () => {
           And sometimes our rooms are messy too. We don't see anyone calling us
           out for that. Pluto, we're with you. We're here for you. We're here to
           fight for you.
+          <br />
+          <br />
+          We can't do it alone. We need your help. We need your support. We need
+          your money. We need your donations. We need your credit card
+          information. We need your social security number. We need your
+          mother's maiden name, and the name of your first childhood pet.
+          <br />
+          <br />
+          ...Just kidding. We do need your money though.
         </p>
       </div>
       <PlutoAndComets className="w-1/2 p-16" />
