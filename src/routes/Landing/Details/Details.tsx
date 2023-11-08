@@ -1,23 +1,25 @@
 export const Details = () => {
   return (
-    <div className="relative flex flex-col gap-y-12 pb-96">
-      <p className="font-jua text-56 text-light-grey">
+    <div className="relative px-4 pb-96 md:px-16">
+      <p className="font-jua text-[3em] text-light-grey ">
         To the International Astronomical Union:
+      </p>
+      <p className=" font-jua text-[2em] text-light-grey ">
         <br />
         We, the people of Earth, are sick and tired of your shenanigans. We are
         sick and tired of your arbitrary rules and regulations. We are sick and
         tired of your double-standards. We are sick and tired of your disrespect
         for Pluto.
-      </p>
-      <p className="font-jua text-56 text-light-grey">
+        <br />
+        <br />
         In short, we want Pluto back. We want it back as a planet. We want it
         back as a planet, and we want it back now.
-      </p>
-      <p className="font-jua text-56 text-light-grey">
+        <br />
+        <br />
         Pluto is a planet. It's not a planet. It's a planet again. It's not a
         planet again.
-      </p>
-      <p className="font-jua text-56 text-light-grey">
+        <br />
+        <br />
         Stop the madness. Bring Pluto back. Or else.
       </p>
     </div>
