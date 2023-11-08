@@ -57,5 +57,10 @@ module.exports = {
     },
   },
   safelist: [],
-  plugins: [require('flowbite/plugin'), require('tailwindcss-animated')],
+  plugins: [
+    require('flowbite/plugin'),
+    require('tailwindcss-animated'),
+    require('daisyui'),
+    require('@tailwindcss/typography'),
+  ],
 };
