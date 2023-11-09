@@ -41,6 +41,7 @@ module.exports = {
         'dark-grey': '#1C2029',
         'light-grey': '#D9D9D9',
         'carmine-pink': '#CA9A72',
+        'carmine-pink-hover': '#B58660',
         'light-blue': '#0CC0DF',
       },
       transitionProperty: {

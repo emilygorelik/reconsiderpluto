@@ -25,17 +25,17 @@ export const Merch = () => {
   return (
     <div className="relative min-h-screen">
       <div className="flex">
-        <div className="bg-light-grey relative my-auto w-3/5">
+        <div className="relative my-auto w-3/5 bg-light-grey">
           <SquiglySvg className="absolute left-[99%] top-0 h-full" />
           <div className="p-2 sm:p-8 md:p-12">
-            <p className="font-jua text-dark-grey tansition-all whitespace-nowrap text-[2.7vw] uppercase">
+            <p className="tansition-all whitespace-nowrap font-jua text-[2.7vw] uppercase text-dark-grey">
               Are you comfortable with 8 planets?
             </p>
-            <p className="font-jua text-dark-grey tansition-all text-[3vw] uppercase">
+            <p className="tansition-all font-jua text-[3vw] uppercase text-dark-grey">
               Are you?! Cause we're not.
             </p>
             <br />
-            <p className="font-jua text-dark-grey text-[1.75vw]">
+            <p className="font-jua text-[1.75vw] text-dark-grey">
               The reclassification of Pluto as a dwarf planet in 2006 was a
               decision that continues to be met with resistance and controversy.
               It is argued that Pluto's removal as a planet was wrongfully based
@@ -56,7 +56,7 @@ export const Merch = () => {
               <img
                 src="/assets/img/logo.png"
                 alt="merch"
-                className="animate-wiggle-more animate-duration-[3500ms] animate-infinite w-1/3 ease-in-out"
+                className="w-1/3 animate-wiggle-more ease-in-out animate-duration-[3500ms] animate-infinite"
               />
             </div>
           </div>
@@ -68,17 +68,22 @@ export const Merch = () => {
               <img src="/assets/img/hat.png" alt="merch" className="" />
               <PinkButton
                 className="absolute -bottom-4 -right-4 "
-                onClick={() => window.open('https://www.redbubble.com/shop/ap/154372366', '_blank')}
+                onClick={() =>
+                  window.open(
+                    'https://www.redbubble.com/shop/ap/154372366',
+                    '_blank',
+                  )
+                }
               >
                 MERCH
               </PinkButton>
             </div>
           </div>
           <div className="p-4">
-            <p className="font-jua text-right text-[1.75vw] text-white">
+            <p className="text-right font-jua text-[1.75vw] text-white">
               BUT WE WON'T STAY QUIET.
             </p>
-            <p className="font-jua text-right text-[1.75vw] text-white">
+            <p className="text-right font-jua text-[1.75vw] text-white">
               PLUTO DESERVES A CHANCE
             </p>
           </div>
