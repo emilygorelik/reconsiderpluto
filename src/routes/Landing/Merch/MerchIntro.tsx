@@ -68,7 +68,7 @@ export const Merch = () => {
               <img src="/assets/img/hat.png" alt="merch" className="" />
               <PinkButton
                 className="absolute -bottom-4 -right-4 "
-                onClick={() => toast.warn('*italian accent* ita no worka yet')}
+                onClick={() => window.open('https://www.redbubble.com/shop/ap/154372366', '_blank')}
               >
                 MERCH
               </PinkButton>
