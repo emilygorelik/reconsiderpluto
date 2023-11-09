@@ -6,7 +6,7 @@ import { Landing } from '../../../routes/Landing/Landing';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
