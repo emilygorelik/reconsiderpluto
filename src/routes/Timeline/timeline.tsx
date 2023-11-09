@@ -1,4 +1,4 @@
-import timelineData from '../../data/timelineData.json';
+import timelineData from './timelineData.json';
 
 function Timeline() {
   return (

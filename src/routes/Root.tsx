@@ -9,6 +9,9 @@ export const Root = () => {
         <Link to="/timeline" className="underline">
           timeline
         </Link>
+        <Link to="/merch" className="underline">
+          merch
+        </Link>
       </div>
       <Outlet />
     </div>
