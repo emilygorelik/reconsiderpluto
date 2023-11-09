@@ -6,14 +6,15 @@ function Timeline() {
       <h1 className="py-8">The History of Pluto</h1>
       {timelineData.map((entry, index) => (
         <div
+          id={index.toString()}
           className={`flex ${
             index === 0
               ? 'first-element'
               : index === timelineData.length - 1
-              ? 'last-element'
-              : index % 2 === 0
-              ? 'odd-element justify-start'
-              : 'even-element justify-end'
+                ? 'last-element'
+                : index % 2 === 0
+                  ? 'odd-element justify-start'
+                  : 'even-element justify-end'
           }`}
         >
           <div className="w-1/2 max-w-[1000px] rounded-3xl bg-white p-4 text-dark-blue">
