@@ -37,8 +37,8 @@ const SquiglySvgBottom = ({ className }: SquiglySvgProps) => {
 
 export const MilkyWay = () => {
   return (
-    <div className="bg-dark-grey relative min-h-screen">
-      <SquiglySvgTop className="absolute bottom-full" />
+    <div className="relative min-h-screen bg-dark-grey">
+      <SquiglySvgTop className="absolute bottom-[99%]" />
       <div className="p-2">
         <p className="font-jua text-56 text-light-grey">
           The Milky Way Galaxy.
@@ -48,7 +48,7 @@ export const MilkyWay = () => {
         </p>
       </div>
       <Galaxy />
-      <SquiglySvgBottom className="absolute top-full" />
+      <SquiglySvgBottom className="absolute top-[99%]" />
     </div>
   );
 };

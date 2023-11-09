@@ -1,21 +1,16 @@
-import { Details } from './Landing/Details/Details';
-import { Fedup } from './Landing/Fedup/Fedup';
-import { Footer } from './Landing/Footer/Footer';
-import { Header } from './Landing/Header/Header';
-import { MerchExtended } from './Landing/Merch/MerchExtended';
-import { Merch } from './Landing/Merch/MerchIntro';
-import { MilkyWay } from './Landing/MilkyWay/MilkyWay';
-
+import { Link, Outlet } from 'react-router-dom';
 export const Root = () => {
   return (
-    <div className="bg-dark-blue">
-      <Header />
-      <Merch />
-      <Details />
-      <MilkyWay />
-      <MerchExtended />
-      <Fedup />
-      <Footer />
+    <div className="relative bg-dark-blue">
+      <div className="absolute right-2 top-2 flex gap-x-2">
+        <Link to="/" className="underline">
+          home
+        </Link>
+        <Link to="/timeline" className="underline">
+          timeline
+        </Link>
+      </div>
+      <Outlet />
     </div>
   );
 };
