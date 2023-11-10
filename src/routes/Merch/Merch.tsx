@@ -1,18 +1,17 @@
-import { PinkButton } from '../../shared/components/Button/PinkButton';
+import { Button } from '../../shared/components/Button/Button';
 import MerchItem from './MerchItem';
 
 function Merch() {
   return (
     <div className="prose flex w-full max-w-full flex-col items-center justify-center px-20">
       <h1 className="py-8 text-center">Represent Planet 9 In Style</h1>
-      <button
-        className="hover:bg-carmine-pink-hover btn bg-carmine-pink font-jua text-lg text-black"
+      <Button
         onClick={() =>
           window.open('https://www.redbubble.com/shop/ap/154372366', '_blank')
         }
       >
         Visit the Shop
-      </button>
+      </Button>
       <h2>Some of our fan favorites</h2>
       <div className="mb-8 grid max-w-[1000px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <MerchItem

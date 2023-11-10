@@ -17,9 +17,9 @@ function Timeline() {
               : 'even-element justify-end'
           }`}
         >
-          <div className="w-1/2 max-w-[1000px] rounded-3xl bg-white p-4 text-dark-blue">
+          <div className="w-1/2 max-w-[1000px] rounded-3xl bg-secondary p-4 text-primary">
             <h3
-              className={`text-dark-blue ${
+              className={`text-primary ${
                 index % 2 === 0 ? 'text-right' : ''
               } text-lg font-bold`}
             >
