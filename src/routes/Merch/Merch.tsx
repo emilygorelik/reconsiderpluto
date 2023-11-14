@@ -4,7 +4,7 @@ import MerchItem from './MerchItem';
 function Merch() {
   return (
     <div className="prose flex w-full max-w-full flex-col items-center justify-center px-20">
-      <h1 className="py-8 text-center font-jua">Represent Planet 9 In Style</h1>
+      <h1 className="py-8 text-center">Represent Planet 9 In Style</h1>
       <Button
         onClick={() =>
           window.open('https://www.redbubble.com/shop/ap/154372366', '_blank')
@@ -12,7 +12,7 @@ function Merch() {
       >
         Visit the Shop
       </Button>
-      <h2 className="font-jua">Some of our fan favorites</h2>
+      <h2>Some of our fan favorites</h2>
       <div className="mb-8 grid max-w-[1000px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <MerchItem
           item="Crew Neck"

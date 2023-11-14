@@ -41,8 +41,8 @@ export const Fedup = () => {
     <div className="text-prima relative flex min-h-screen bg-secondary text-primary">
       <SquiglyTop className="absolute bottom-[99%] left-0 w-full" />
       <div className="my-auto w-1/2 p-16">
-        <p className="font-jua text-[3.5em]">Fed up? So are we.</p>
-        <p className="font-jua text-[1.2em]">
+        <p className="text-[3.5em]">Fed up? So are we.</p>
+        <p className="text-[1.2em]">
           "Research" says Pluto isn't a planet partially due to the fact that it
           hasn't cleared its orbit of debris. Well, neither has Earth. So, if
           Pluto isn't a planet, neither are we.

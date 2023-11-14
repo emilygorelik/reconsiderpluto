@@ -28,14 +28,14 @@ export const Merch = () => {
         <div className="relative my-auto w-5/6 bg-secondary text-primary">
           <SquiglySvg className="absolute left-[99%] top-0 h-full" />
           <div className="p-2 sm:p-8 md:p-12">
-            <p className="tansition-all whitespace-nowrap font-jua text-[2.7vw] uppercase">
+            <p className="tansition-all whitespace-nowrap text-[2.7vw] uppercase">
               Are you comfortable with 8 planets?
             </p>
-            <p className="tansition-all font-jua text-[3vw] uppercase">
+            <p className="tansition-all text-[3vw] uppercase">
               Are you?! Cause we're not.
             </p>
             <br />
-            <p className="font-jua text-[1.75vw]">
+            <p className="text-[1.75vw]">
               The reclassification of Pluto as a dwarf planet in 2006 was a
               decision that continues to be met with resistance and controversy.
               It is argued that Pluto's removal as a planet was wrongfully based

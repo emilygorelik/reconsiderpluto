@@ -1,10 +1,8 @@
 export const Details = () => {
   return (
     <div className="relative px-4 pb-96 md:px-16">
-      <p className="font-jua text-[3em]">
-        To the International Astronomical Union:
-      </p>
-      <p className=" font-jua text-[2em]">
+      <p className="text-[3em]">To the International Astronomical Union:</p>
+      <p className="text-[2em]">
         <br />
         We, the people of Earth, are sick and tired of your shenanigans. We are
         sick and tired of your arbitrary rules and regulations. We are sick and
