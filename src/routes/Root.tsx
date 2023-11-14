@@ -2,16 +2,25 @@ import { Link, Outlet } from 'react-router-dom';
 export const Root = () => {
   return (
     <div className="relative">
-      <div className="flex justify-end w-full gap-4 bg-accent text-primary p-2 text-lg">
-        <Link to="/" className="uppercase p-2 rounded hover:bg-accent-focus font-bold">
+      <div className="flex w-full justify-end gap-4 bg-accent p-2 text-lg text-primary">
+        <Link
+          to="/"
+          className="rounded p-2 font-bold uppercase hover:bg-accent-focus"
+        >
           home
         </Link>
-        <Link to="/timeline" className="uppercase p-2 rounded hover:bg-accent-focus font-bold">
-          timeline
-        </Link>
-        <Link to="/merch" className="uppercase p-2 rounded hover:bg-accent-focus font-bold">
+        <Link
+          to="/merch"
+          className="rounded p-2 font-bold uppercase hover:bg-accent-focus"
+        >
           merch
         </Link>
+        {/* <Link
+          to="/timeline"
+          className="rounded p-2 font-bold uppercase hover:bg-accent-focus"
+        >
+          timeline
+        </Link> */}
       </div>
       <Outlet />
     </div>
