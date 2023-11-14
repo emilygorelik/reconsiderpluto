@@ -36,13 +36,6 @@ module.exports = {
       jua: ['Jua', 'sans-serif'],
     },
     extend: {
-      colors: {
-        'dark-blue': '#151D32',
-        'dark-grey': '#1C2029',
-        'light-grey': '#D9D9D9',
-        'carmine-pink': '#CA9A72',
-        'light-blue': '#0CC0DF',
-      },
       transitionProperty: {
         height: 'height',
         width: 'width',
@@ -57,6 +50,21 @@ module.exports = {
     },
   },
   safelist: [],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#151D32', //navy blue
+          secondary: '#D9D9D9', //gray
+          accent: '#CA9A72', //sandy pink
+          'base-100': '#1C2029', //dark gray (black)
+          success: '#36d399', //green
+          warning: '#fbbd23', //yellow-orange
+          error: '#f87272', //red-pink
+        },
+      },
+    ],
+  },
   plugins: [
     require('flowbite/plugin'),
     require('tailwindcss-animated'),

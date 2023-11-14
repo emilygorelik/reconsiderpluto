@@ -3,6 +3,7 @@ import { Root } from '../../../routes/Root';
 import { ErrorPage } from './Error';
 import Timeline from '../../../routes/Timeline/timeline';
 import { Landing } from '../../../routes/Landing/Landing';
+import Merch from '../../../routes/Merch/Merch';
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: '/timeline',
         element: <Timeline />,
+      },
+      {
+        path: '/merch',
+        element: <Merch />,
       },
     ],
   },
