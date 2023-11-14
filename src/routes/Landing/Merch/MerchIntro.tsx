@@ -28,14 +28,11 @@ export const Merch = () => {
         <div className="relative my-auto w-5/6 bg-secondary text-primary">
           <SquiglySvg className="absolute left-[99%] top-0 h-full" />
           <div className="p-2 sm:p-8 md:p-12">
-            <p className="tansition-all whitespace-nowrap text-[2.7vw] uppercase">
-              Are you comfortable with 8 planets?
-            </p>
-            <p className="tansition-all text-[3vw] uppercase">
-              Are you?! Cause we're not.
-            </p>
-            <br />
-            <p className="text-[1.75vw]">
+            <h2 className="uppercase">
+              Are you comfortable with 8 planets? <br /> Are you?! Cause we're
+              not.
+            </h2>
+            <p>
               The reclassification of Pluto as a dwarf planet in 2006 was a
               decision that continues to be met with resistance and controversy.
               It is argued that Pluto's removal as a planet was wrongfully based
@@ -43,16 +40,14 @@ export const Merch = () => {
               a disregard for the historical and cultural significance of this
               celestial body.
             </p>
-            <div className="flex">
-              <div className="flex w-2/3 flex-col justify-end">
-                <Button
-                  onClick={() =>
-                    toast.warn('*italian accent* ita no worka yet')
-                  }
-                >
-                  Donate Here
-                </Button>
-              </div>
+            <div className="flex items-end justify-end">
+              <Button
+                onClick={() => toast.warn('*italian accent* ita no worka yet')}
+                className="px-8"
+              >
+                Donate Here
+              </Button>
+
               <img
                 src="/assets/img/logo.png"
                 alt="give us money"

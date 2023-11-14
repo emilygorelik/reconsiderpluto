@@ -6,3 +6,20 @@
 * {
   @apply font-jua;
 }
+
+h1 {
+  @apply pb-[1rem] text-3xl;
+}
+
+h2 {
+  @apply pb-[1rem] text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+.btn,
+p {
+  @apply text-lg;
+}

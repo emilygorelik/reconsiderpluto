@@ -39,9 +39,11 @@ export const MilkyWay = () => {
   return (
     <div className="relative min-h-screen bg-primary">
       <SquiglySvgTop className="absolute bottom-[99%]" />
-      <div className="p-2 text-56">
-        <p>The Milky Way Galaxy.</p>
-        <p>click on some freakin' planets and explore more.</p>
+      <div className="p-2">
+        <h1>
+          The Milky Way Galaxy. <br />
+          click on some freakin' planets and explore more.
+        </h1>
       </div>
       <Galaxy />
       <SquiglySvgBottom className="absolute top-[99%]" />

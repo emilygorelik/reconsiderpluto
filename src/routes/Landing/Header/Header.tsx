@@ -1,8 +1,9 @@
 export const Header = () => {
   return (
-    <div className="min-h-screen p-2 text-56 transition-all md:p-32">
-      <p>Bring Pluto Back.</p>
-      <p>(or else).</p>
+    <div className="p-[5vw] transition-all">
+      <h1>
+        Bring Pluto Back. <br /> (or else)
+      </h1>
     </div>
   );
 };
