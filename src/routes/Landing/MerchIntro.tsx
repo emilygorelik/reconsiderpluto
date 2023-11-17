@@ -55,11 +55,12 @@ const SquiglySvg = ({ className }: SquiglySvgProps) => {
 
 export const Merch = () => {
   return (
-    <div className="relative my-32 flex">
-      <SquiglySvgTop className="absolute bottom-[99%] sm:invisible" />
-      <div className="relative w-full bg-secondary p-8 text-primary sm:w-5/6">
+    <div className="relative my-32 md:flex">
+      <SquiglySvgTop className="absolute bottom-[99%] md:invisible" />
+
+      <div className="relative w-full bg-secondary p-2 text-primary sm:p-8 md:p-12">
         <SquiglySvg className="invisible absolute left-[99%] top-0 sm:visible sm:h-full" />
-        <div className="flex flex-col p-2 sm:p-8 md:p-12">
+        <div className="flex flex-col ">
           <h2 className="uppercase">
             Are you comfortable with 8 planets? <br />
             Are you?! Cause we're not.
@@ -90,7 +91,7 @@ export const Merch = () => {
           </div>
         </div>
       </div>
-      <SquiglySvgBottom className="sm:invisible" />
+      <SquiglySvgBottom className="md:invisible" />
     </div>
   );
 };
