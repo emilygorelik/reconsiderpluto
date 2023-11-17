@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="p-[5vw] transition-all">
+    <div className="p-4">
       <h1>
         Bring Pluto Back. <br /> (or else)
       </h1>
