@@ -37,7 +37,7 @@ const SquiglySvgBottom = ({ className }: SquiglySvgProps) => {
 
 export const MilkyWay = () => {
   return (
-    <div className="relative min-h-screen bg-primary">
+    <div className="relative my-32 min-h-screen bg-primary">
       <SquiglySvgTop className="absolute bottom-[99%]" />
       <div className="p-2">
         <h1>
