@@ -38,10 +38,10 @@ const SquiglyBottom = ({ className }: SquiglyProps) => {
 
 export const Fedup = () => {
   return (
-    <div className="relative flex min-h-screen">
-      <div className="my-auto w-1/2 px-16">
-        <h2 className="">Fed up? So are we.</h2>
-        <p className="">
+    <div className="relative mt-32 flex flex-col px-8 sm:flex-row">
+      <div className="mb-8 sm:w-2/3">
+        <h2>Fed up? So are we.</h2>
+        <p>
           "Research" says Pluto isn't a planet partially due to the fact that it
           hasn't cleared its orbit of debris. Well, neither has Earth. So, if
           Pluto isn't a planet, neither are we.
@@ -58,7 +58,7 @@ export const Fedup = () => {
           ...Just kidding. We do need your money though.
         </p>
       </div>
-      <PlutoAndComets className="w-1/2 p-16" />
+      <PlutoAndComets className="sm:w-1/3" />
     </div>
   );
 };

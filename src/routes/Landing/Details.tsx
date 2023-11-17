@@ -1,6 +1,6 @@
 export const Details = () => {
   return (
-    <div className="relative px-4 pb-96 md:px-16">
+    <div className="relative px-4 pb-32 md:px-16">
       <h1>To the International Astronomical Union:</h1>
       <h2>
         We, the people of Earth, are sick and tired of your shenanigans. We are
