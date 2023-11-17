@@ -6,7 +6,7 @@ import { MilkyWay } from './MilkyWay/MilkyWay';
 
 export const Landing = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <Merch />
       <Details />
