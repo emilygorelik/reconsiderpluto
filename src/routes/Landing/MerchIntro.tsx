@@ -64,6 +64,8 @@ export const Merch = () => {
             Are you comfortable with 8 planets? <br />
             Are you?! Cause we're not.
           </h2>
+        </div>
+        <div>
           <p>
             The reclassification of Pluto as a dwarf planet in 2006 was a
             decision that continues to be met with resistance and controversy.
@@ -72,10 +74,10 @@ export const Merch = () => {
             disregard for the historical and cultural significance of this
             celestial body.
           </p>
-          <div className="flex flex-col-reverse items-end justify-end">
+          <div className="flex justify-between">
             <Button
               onClick={() => toast.warn('*italian accent* ita no worka yet')}
-              className="px-8"
+              className="my-auto px-8"
             >
               Donate Here
             </Button>
@@ -88,7 +90,7 @@ export const Merch = () => {
           </div>
         </div>
       </div>
-      <SquiglySvgBottom className="absolute top-[99%] sm:invisible" />
+      <SquiglySvgBottom className="sm:invisible" />
     </div>
   );
 };
