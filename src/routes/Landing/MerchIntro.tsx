@@ -1,5 +1,5 @@
 import { toast } from 'react-toastify';
-import { Button } from '../../../shared/components/Button/Button';
+import { Button } from '../../shared/components/Button/Button';
 
 interface SquiglySvgProps {
   className?: string;
