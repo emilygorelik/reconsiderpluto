@@ -59,7 +59,7 @@ export const Merch = () => {
       <SquiglySvgTop className="absolute bottom-[99%] md:invisible" />
 
       <div className="relative w-full bg-secondary p-2 text-primary sm:p-8 md:p-12">
-        <SquiglySvg className="invisible absolute left-[99%] top-0 sm:visible sm:h-full" />
+        <SquiglySvg className="invisible absolute left-[99%] top-0 md:visible md:h-full" />
         <div className="flex flex-col ">
           <h2 className="uppercase">
             Are you comfortable with 8 planets? <br />
