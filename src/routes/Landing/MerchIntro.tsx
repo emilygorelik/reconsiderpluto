@@ -57,7 +57,7 @@ export const Merch = () => {
   return (
     <div className="relative my-32 flex">
       <SquiglySvgTop className="absolute bottom-[99%] sm:invisible" />
-      <div className="relative w-full bg-secondary text-primary sm:w-5/6">
+      <div className="relative w-full bg-secondary p-8 text-primary sm:w-5/6">
         <SquiglySvg className="invisible absolute left-[99%] top-0 sm:visible sm:h-full" />
         <div className="flex flex-col p-2 sm:p-8 md:p-12">
           <h2 className="uppercase">
