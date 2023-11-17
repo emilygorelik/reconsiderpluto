@@ -38,7 +38,7 @@ const SquiglyBottom = ({ className }: SquiglyProps) => {
 
 export const Fedup = () => {
   return (
-    <div className="relative mx-4 mt-32 flex flex-col justify-between px-8 sm:flex-row">
+    <div className="relative mx-4 mt-32 flex flex-col justify-between sm:flex-row">
       <div className="mb-8 sm:w-2/3">
         <h2>Fed up? So are we.</h2>
         <p>
@@ -58,7 +58,7 @@ export const Fedup = () => {
           ...Just kidding. We do need your money though.
         </p>
       </div>
-      <PlutoAndComets className="sm:w-1/3 md:max-w-[400px]" />
+      <PlutoAndComets className="mb-16 sm:w-1/3 md:max-w-[400px]" />
     </div>
   );
 };
