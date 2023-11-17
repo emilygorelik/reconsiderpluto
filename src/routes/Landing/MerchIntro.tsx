@@ -61,8 +61,8 @@ export const Merch = () => {
         <SquiglySvg className="invisible absolute left-[99%] top-0 sm:visible sm:h-full" />
         <div className="flex flex-col p-2 sm:p-8 md:p-12">
           <h2 className="uppercase">
-            Are you comfortable with 8 planets? <br /> Are you?! Cause we're
-            not.
+            Are you comfortable with 8 planets? <br />
+            Are you?! Cause we're not.
           </h2>
           <p>
             The reclassification of Pluto as a dwarf planet in 2006 was a
