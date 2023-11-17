@@ -38,32 +38,27 @@ const SquiglyBottom = ({ className }: SquiglyProps) => {
 
 export const Fedup = () => {
   return (
-    <div className="text-prima relative flex min-h-screen bg-secondary text-primary">
-      <SquiglyTop className="absolute bottom-[99%] left-0 w-full" />
-      <div className="my-auto w-1/2 p-16">
-        <p className="font-jua text-[3.5em]">Fed up? So are we.</p>
-        <p className="font-jua text-[1.2em]">
+    <div className="relative mx-4 mt-32 flex flex-col justify-between sm:flex-row">
+      <div className="mb-8 sm:w-2/3">
+        <h2>Fed up? So are we.</h2>
+        <p>
           "Research" says Pluto isn't a planet partially due to the fact that it
           hasn't cleared its orbit of debris. Well, neither has Earth. So, if
           Pluto isn't a planet, neither are we.
           <br />
-          <br />
           And sometimes our rooms are messy too. We don't see anyone calling us
           out for that. Pluto, we're with you. We're here for you. We're here to
           fight for you.
-          <br />
           <br />
           We can't do it alone. We need your help. We need your support. We need
           your money. We need your donations. We need your credit card
           information. We need your social security number. We need your
           mother's maiden name, and the name of your first childhood pet.
           <br />
-          <br />
           ...Just kidding. We do need your money though.
         </p>
       </div>
-      <PlutoAndComets className="w-1/2 p-16" />
-      <SquiglyBottom className="absolute left-0 top-[99%] w-full" />
+      <PlutoAndComets className="mb-16 sm:w-1/3 md:max-w-[400px]" />
     </div>
   );
 };

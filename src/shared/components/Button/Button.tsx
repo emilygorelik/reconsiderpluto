@@ -14,7 +14,7 @@ export const Button = ({
     <button
       className={cx(
         className,
-        'btn btn-accent whitespace-nowrap rounded border-none p-2 font-jua text-black shadow transition-all md:px-12 md:py-4',
+        'btn btn-accent whitespace-nowrap rounded border-none p-2 text-black shadow transition-all md:px-12 md:py-4',
       )}
       {...rest}
     >

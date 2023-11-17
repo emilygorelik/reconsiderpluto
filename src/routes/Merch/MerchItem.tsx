@@ -9,7 +9,7 @@ interface props {
 function MerchItem({ img, item, link }: props) {
   return (
     <div className="flex h-min flex-col rounded-xl bg-white p-4">
-      <h2 className="my-2 font-jua text-black">{item}</h2>
+      <h2 className="my-2 text-black">{item}</h2>
       <img src={img} className="m-0 rounded-md" />
       <Button
         className="ml-auto mt-2"
